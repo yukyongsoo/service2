@@ -1,6 +1,6 @@
 spring:
   application:
-    name: service2
+    name: user
   profiles:
     active: default
   cloud:
