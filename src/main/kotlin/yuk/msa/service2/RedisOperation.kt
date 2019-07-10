@@ -4,7 +4,7 @@ import org.springframework.data.redis.core.StringRedisTemplate
 import org.springframework.stereotype.Component
 
 @Component
-class RedisOperatio0n(private val redis : StringRedisTemplate) {
+class RedisOperation(private val redis : StringRedisTemplate) {
     fun put(){
         val opsForValue = redis.opsForValue()
         opsForValue.set("key","value")
